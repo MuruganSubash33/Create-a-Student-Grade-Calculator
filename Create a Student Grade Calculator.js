@@ -14,19 +14,19 @@ if(percentage>180)
 {
     alert("Grade A")
 }
-else if((percentage<160)&&(percentage>80))
+else if((percentage<180)&&(percentage>160))
 {
 alert("Grade B")
 }
-else if((percentage<140)&&(percentage>70))
+else if((percentage<160)&&(percentage>140))
 {
 alert("Grade C")
 }
-else if((percentage<120)&&(percentage>60))
+else if((percentage<140)&&(percentage>120))
     {
     alert("Grade D")
     }
-    else if((percentage<100)&&(percentage>50))
+    else if((percentage<120)&&(percentage>100))
         {
         alert("Grade E")
         }
